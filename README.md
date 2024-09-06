@@ -1,4 +1,4 @@
-# Random JavaScript bullshit
+# Random JavaScript Bullshit
 
 JavaScript was created by Brendan Eich in **10 days** in 1995.
 Thats probably the reason why it is used in web development, server-side development, mobile app development, and even in machine learning today.
@@ -200,7 +200,7 @@ isNaN(null); // false
 
 ### Parsing ints can be fun
 
-`parseInt` will convert armunet to string before parsing it.
+`parseInt` will convert argument to string before parsing it.
 
 ```javascript
 // parseInt(0.5) becomes parseInt("0.5") which is 0
@@ -248,9 +248,9 @@ console.log(Math.min());  // Infinity
 ```
 ## Arrays
 
-You can manually set the length of an array. And you can also set elements outside the bounds of the array. This will create empty slots in the array. Length property doesn't count elements in array but the highest index + 1.
-
 ### Indexes and emply slots
+
+You can manually set the length of an array. And you can also set elements outside the bounds of the array. This will create empty slots in the array. Length property doesn't count elements in array but the highest index + 1.
 
 ```javascript
 const arr = [1, 2, 3];
